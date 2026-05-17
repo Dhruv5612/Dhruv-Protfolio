@@ -1,13 +1,13 @@
 export const config = {
     developer: {
-        name: "Huzaif",
-        fullName: "Huzaif Ahmed",
+        name: "Dhruv",
+        fullName: "Dhruv Kamariya",
         title: "Full Stack Developer",
         description: "Full-stack builder creating digital experiences that respect humans and scale with clarity. Accessibility is my north star."
     },
     social: {
-        github: "huzaifahmedz",
-        email: "dev.huzaif@gmail.com",
+        github: "Dhruv161104",
+        email: "your.email@example.com",
         location: "India"
     },
     about: {
@@ -82,8 +82,8 @@ export const config = {
         }
     ],
     contact: {
-        email: "dev.huzaif@gmail.com",
-        github: "https://github.com/huzaifahmedz",
+        email: "your.email@example.com",
+        github: "https://github.com/Dhruv161104",
         linkedin: "https://www.linkedin.com",
         twitter: "https://x.com",
         instagram: "https://www.instagram.com"
