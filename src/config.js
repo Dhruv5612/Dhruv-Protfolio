@@ -7,7 +7,7 @@ export const config = {
     },
     social: {
         github: "Dhruv161104",
-        email: "your.email@example.com",
+        email: "dhruvkamariya7@gmail.com",
         location: "India"
     },
     about: {
@@ -82,7 +82,7 @@ export const config = {
         }
     ],
     contact: {
-        email: "your.email@example.com",
+        email: "dhruvkamariya7@gmail.com",
         github: "https://github.com/Dhruv161104",
         linkedin: "https://www.linkedin.com",
         twitter: "https://x.com",
