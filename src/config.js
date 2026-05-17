@@ -69,9 +69,7 @@ export const config = {
     contact: {
         email: "dhruvkamariya7@gmail.com",
         github: "https://github.com/Dhruv161104",
-        linkedin: "https://www.linkedin.com",
-        twitter: "https://x.com",
-        instagram: "https://www.instagram.com"
+        linkedin: "https://www.linkedin.com"
     },
     skills: {
         develop: {
