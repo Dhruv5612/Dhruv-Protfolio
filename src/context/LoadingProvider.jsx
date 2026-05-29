@@ -4,7 +4,7 @@ import {
     useEffect,
     useState,
 } from "react";
-import Loading from "../components/Loading";
+import Loading, { setProgress } from "../components/Loading";
 
 export const LoadingContext = createContext(null);
 
@@ -17,7 +17,11 @@ export const LoadingProvider = ({ children }) => {
         setIsLoading,
         setLoading,
     };
-    useEffect(() => { }, [loading]);
+    
+    useEffect(() => {
+        const progress = setProgress(setLoading);
+        progress.loaded();
+    }, []);
 
     return (
         <LoadingContext.Provider value={value}>
