@@ -18,7 +18,7 @@ export const config = {
         {
             position: "Intern Full Stack Developer",
             company: "Future Interns",
-            period: "May 2025 -July 2025",
+            period: "May 2025 - July 2025",
             location: "Bangalore, Karnataka",
             description: "Developed and maintained full-stack web applications, working on both frontend and backend systems. Collaborated with cross-functional teams to deliver robust software solutions.",
             responsibilities: [
@@ -55,7 +55,7 @@ export const config = {
             id: 4,
             title: "Villa-Agency",
             category: "Full Stack",
-            technologies: "React, CSS,JavaScript ",
+            technologies: "React, CSS, JavaScript",
             image: "/images/project-4.webp"
         },
         {
@@ -69,7 +69,7 @@ export const config = {
     contact: {
         email: "dhruvkamariya7@gmail.com",
         github: "https://github.com/Dhruv161104",
-        linkedin: "https://www.linkedin.com"
+        linkedin: "https://www.linkedin.com/in/dhruv-kamariya/"
     },
     skills: {
         develop: {

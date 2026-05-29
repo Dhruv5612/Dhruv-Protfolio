@@ -1,7 +1,7 @@
 import "./styles/Landing.css";
 import { config } from "../config";
 
-const Landing = ({ children }) => {
+const Landing = () => {
     const nameParts = config.developer.fullName.split(" ");
     const firstName = nameParts[0] || config.developer.name;
     const lastName = nameParts.slice(1).join(" ") || "";
@@ -30,7 +30,6 @@ const Landing = ({ children }) => {
                         </h2>
                     </div>
                 </div>
-                {children}
             </div>
         </>
     );

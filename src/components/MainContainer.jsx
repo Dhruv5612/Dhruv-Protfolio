@@ -12,7 +12,7 @@ import setSplitText from "./utils/splitText";
 
 const TechStack = lazy(() => import("./TechStack"));
 
-const MainContainer = ({ children }) => {
+const MainContainer = () => {
     const [isDesktopView, setIsDesktopView] = useState(
         window.innerWidth > 1024
     );
@@ -34,9 +34,8 @@ const MainContainer = ({ children }) => {
             <Cursor />
             <Navbar />
             <SocialIcons />
-            {isDesktopView && children}
             <div className="container-main">
-                <Landing>{!isDesktopView && children}</Landing>
+                <Landing />
                 <About />
                 <WhatIDo />
                 <Career />
